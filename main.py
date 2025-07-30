@@ -3,7 +3,7 @@ import webbrowser
 import pyttsx3
 import music
 import requests
-from openai import OpenAI
+# from openai import OpenAI
 from gtts import gTTS
 import pygame
 import os
@@ -13,11 +13,11 @@ import os
 recognizer = sr.Recognizer()
 engine = pyttsx3.init() 
 
-newsapi = "a5dd4e93c9b04cec9044ef561b3188cd"  # Keep this for news API
+# newsapi = "a5dd4e93c9b04cec9044ef561b3188cd"  # Keep this for news API
 
 # OpenAI API key configuration
-openai_api_key = "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"
-client = OpenAI(api_key=openai_api_key)
+# openai_api_key = "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"
+# client = OpenAI(api_key=openai_api_key)
 
 def speak_old(text):
     engine.say(text)
