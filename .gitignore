@@ -1,0 +1,6 @@
+# Ignore environment variables and secrets
+.env
+env/
+*.env
+__pycache__/
+*.pyc
